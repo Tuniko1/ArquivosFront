@@ -1,0 +1,91 @@
+
+#container{ 
+width: auto;
+background-color: #ccc
+
+}
+
+.container{ 
+    width: auto;
+    background-color: #ccc    
+    }
+
+.nav-bar{
+    background-color: rgb(3, 108, 201);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    height: 120px;
+    width: 100%;
+}
+.nav-bar .logo img{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    content: url("https://logodownload.org/wp-content/uploads/2019/08/senai-logo-5.png");
+}
+.nav-bar .links_paginas ul{
+    display: flex;
+    text-align: center;
+    list-style: none;
+}
+.nav-bar ul li a{
+    margin: 10px ;
+    color: white;
+    text-decoration: none;
+}
+.nav-bar ul li a:hover{
+    color: #000;
+    font-size: 20px;
+    text-shadow: 1px 2px 5px #000;
+}
+main .banner img{
+    width:775px ;
+    height: 370px;
+    margin: auto;
+    display:block ;
+}
+.historia{
+    width: 70%;
+    margin: auto;
+    display: block;
+}
+h2{
+    text-align: center;
+}
+.historia p{
+    text-align: justify;
+
+}
+.container p{
+    text-align: justify;
+}
+#container a{
+    text-decoration: none;
+    margin: 10px ;
+    color: green;
+}
+#wpp{
+    font-size:30px;
+    color: green;
+    text-shadow: 1px 2px 5px rgb(14, 197, 14);
+    text-decoration: none;
+}
+
+.colaboradores .card{
+    display: block;
+    margin: auto;
+    justify-content: space-around;
+    padding: 15px;
+    padding-left:25%;
+    padding-right: 25%;
+}
+.colaboradores p{
+    
+}
+.colaboradores img{
+    
+    width: 50px;
+}
