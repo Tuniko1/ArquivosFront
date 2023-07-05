@@ -23,16 +23,39 @@
                 <li>
                     <a href="sobre.html">Sobre</a>
                 </li>
+                <li>
+                    <a href="cursos.html">Cursos</a>
+                  </li>
             </ul>
         </div>
       </nav>
     </header>
-    <div id="container">
-        <h2>Informações </h2>
-        <p> <a href="contato.html"><i class="fa fa-whatsapp" id="wpp"></i> (61) 96161-6161</p></a>
-        <p>
-          Contém informações de contato
-          <p>Loren ipsun dolor sit anet, consectetur adipisci elit, sed eiusnod tenpor incidunt ut labore et dolore nagna aliqua. Ut enin ad ninin venian, quis nostrun exercitationen ullan corporis suscipit laboriosan, nisi ut aliquid ex ea connodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillun dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt nollit anin id est laborun.</p>
+    <div id="container_form">
+        <h2 class="contato_title">Formulário de Contato</h2><p>
+          <p><div id="after_submit" ></div>
+            <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+              <div class="row">
+                <label class="required" for="name">Nome:</label><br>
+                <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+                <span id="name_validation" class="error_message"></span>
+              </div>
+              <div class="row">
+                <label class="required" for="email">Email:</label><br />
+                <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+                <span id="email_validation" class="error_message"></span>
+              </div><br>
+              <div class="row">
+                <label for="phone">&nbspTelefone:</label>
+                <input type="tel" id="phone" name="phone" placeholder="(DDD)" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"> <b.<i class="fa fa-whatsapp" id="wpp"></i>
+                </div><br><br>
+              <div class="row">
+                <label class="required" for="message">Comentários:</label><br />
+                <textarea id="message" class="input" name="message" rows="10" cols="40"></textarea><br />
+                <span id="message_validation" class="error_message"></span>
+            </div>
+                
+                <input id="submit_button" type="submit" value="Enviar" />
+            </form></p>
         </p>
       </div>
 </head>
