@@ -103,13 +103,31 @@ body{
 .required{
     margin: 10px ;
     color: black;
-    
-
 }
+
 .contato_title{
     text-align: center;
 }
 .sobre .sobre_texto{
     text-align: justify;
     padding: 100px 500px;
+}
+.sobre img{
+    width:70% ;
+    height: 500px;
+    margin: auto;
+    display:block ;
+
+}
+.gps{   
+    margin-left: 350px;
+    width: 60%;
+    height: 500px;
+}
+.title_gps{
+    text-align: center;
+    text-decoration: overline grey;
+    
+    color: rgb(0, 179, 15);
+    font-family: cursive;
 }
