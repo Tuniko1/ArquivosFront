@@ -131,12 +131,3 @@ body{
     color: rgb(0, 179, 15);
     font-family: cursive;
 }
-.cursos ul li p{
-    text-align: justify;
-    text-decoration: underline black;
-    
-
-}
-.cursos ul li img{
-    width: 350px;
-}
